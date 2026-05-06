@@ -1,0 +1,29 @@
+{
+  "name": "envlock",
+  "version": "2.0.0",
+  "description": "Secure multi-user .env encryption with tamper-proof signing and runtime-only decryption",
+  "main": "src/cli.js",
+  "bin": {
+    "envlock": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.13"
+  },
+  "keywords": [
+    "env",
+    "encrypt",
+    "secrets",
+    "security",
+    "dotenv",
+    "multi-user",
+    "ed25519",
+    "x25519"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
